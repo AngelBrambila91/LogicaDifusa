@@ -1,0 +1,10 @@
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/bin/Debug/netstandard2.0/MyOwnLibrary.deps.json
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/bin/Debug/netstandard2.0/MyOwnLibrary.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/bin/Debug/netstandard2.0/MyOwnLibrary.pdb
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/obj/Debug/netstandard2.0/MyOwnLibrary.pdb

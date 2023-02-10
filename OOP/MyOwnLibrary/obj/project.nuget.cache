@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uJ6clO41lsNvSHWaZy6On+qV8QdK6usK3FjstekUqVXYGETG4fuYZhbUwq3DScR0hLodo1/GwqO9eyJlUUCHMA==",
+  "success": true,
+  "projectFilePath": "/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/MyOwnLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/angelbrambila/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/angelbrambila/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
