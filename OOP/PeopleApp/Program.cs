@@ -1,5 +1,6 @@
 ﻿using MyOwnLibrary;
 
+#region Angel Object
 Person angel = new(); // Instance
 angel.Name = "Angel";
 angel.DateOfBirth = new DateTime(1991, 08, 02);
@@ -18,23 +19,75 @@ WriteLine(format: " {0} Next Destination is : {1}. Its integer is {2}.",
 // Interpolation
 WriteLine($"{angel.Name}'s bucket list is {angel.BucketList}");
 
-// creating a new person
-Person Saul = new()
+// Create a child to Angel
+angel.Children.Add(new Person {
+    Name = "Alejandro"
+});
+
+angel.Children.Add(new Person {
+    Name = "Sofia"
+});
+
+WriteLine($"{angel.Name} has {angel.Children.Count} children.");
+for(int childIndex = 0; childIndex < angel.Children.Count; childIndex++)
 {
-    Name = "Saul",
-    DateOfBirth = new DateTime(1992, 02, 18),
-    NextDestination = PlacesToTravel.London,
-    BucketList = PlacesToTravel.Cancun | PlacesToTravel.Ireland
-};
+    WriteLine($"> {angel.Children[childIndex].Name}");
+}
 
-WriteLine(format: "{0} was born on  {1:dddd, d MMMM yyyy}",
-                    arg0: Saul.Name,
-                    arg1: Saul.DateOfBirth);
+// Accessing a static field
+BankAccount.InterestRate = 0.012M;
+BankAccount newYorkLife = new();
+newYorkLife.AccountName = "Miriam";
+newYorkLife.Balance = 2500;
 
-WriteLine(format: " {0} Next Destination is : {1}. Its integer is {2}.",
-arg0: Saul.Name,
-arg1: Saul.NextDestination,
-arg2: (int)Saul.NextDestination);
+WriteLine(format: "{0} earned {1:C} interest.",
+arg0: newYorkLife.AccountName,
+arg1: newYorkLife.Balance * BankAccount.InterestRate);
 
-// Interpolation
-WriteLine($"{Saul.Name}'s bucket list is {Saul.BucketList}");
+
+// Using constant field
+WriteLine($"{angel.Name} is a {Person.Species}");
+
+// Using read only field
+WriteLine($"{angel.Name} was born on {angel.HomePlanet}");
+#endregion
+
+#region Saul Object
+// // creating a new person
+// Person Saul = new()
+// {
+//     Name = "Saul",
+//     DateOfBirth = new DateTime(1992, 02, 18),
+//     NextDestination = PlacesToTravel.London,
+//     BucketList = PlacesToTravel.Cancun | PlacesToTravel.Ireland
+// };
+
+// WriteLine(format: "{0} was born on  {1:dddd, d MMMM yyyy}",
+//                     arg0: Saul.Name,
+//                     arg1: Saul.DateOfBirth);
+
+// WriteLine(format: " {0} Next Destination is : {1}. Its integer is {2}.",
+// arg0: Saul.Name,
+// arg1: Saul.NextDestination,
+// arg2: (int)Saul.NextDestination);
+
+// // Interpolation
+// WriteLine($"{Saul.Name}'s bucket list is {Saul.BucketList}");
+#endregion
+
+#region Blank Person
+    // // Use of Constructor
+    Person blankPerson = new();
+    WriteLine(format: "{0} of  {1} was created at {2:hh:mm:ss} on a {2:dddd}",
+    arg0: blankPerson.Name,
+    arg1: blankPerson.HomePlanet,
+    arg2: blankPerson.Instantiated);
+#endregion
+
+#region Using Overloaded Constructor
+    Person Andrea = new(initialName: "Andrea", homePlanet: "Venus");
+    WriteLine(format: "{0} of  {1} was created at {2:hh:mm:ss} on a {2:dddd}",
+     arg0: Andrea.Name,
+     arg1: Andrea.HomePlanet,
+     arg2: Andrea.Instantiated);
+#endregion
