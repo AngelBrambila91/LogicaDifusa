@@ -14,4 +14,8 @@
   <ItemGroup>
   <ProjectReference Include= "../MyOwnLibrary/MyOwnLibrary.csproj"/>
   </ItemGroup>
+
+  <ItemGroup>
+  <ProjectReference Include= "../Net7Library/Net7Library.csproj"/>
+  </ItemGroup>
 </Project>

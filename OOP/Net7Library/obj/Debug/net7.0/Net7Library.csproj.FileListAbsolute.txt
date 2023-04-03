@@ -1,0 +1,12 @@
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/bin/Debug/net7.0/Net7Library.deps.json
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/bin/Debug/net7.0/Net7Library.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/bin/Debug/net7.0/Net7Library.pdb
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/refint/Net7Library.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/Net7Library.pdb
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/obj/Debug/net7.0/ref/Net7Library.dll

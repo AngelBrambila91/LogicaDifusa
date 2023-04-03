@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/MyOwnLibrary.dll": {}
         }
+      },
+      "Net7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Net7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Net7Library.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../MyOwnLibrary/MyOwnLibrary.csproj",
       "msbuildProject": "../MyOwnLibrary/MyOwnLibrary.csproj"
+    },
+    "Net7Library/1.0.0": {
+      "type": "project",
+      "path": "../Net7Library/Net7Library.csproj",
+      "msbuildProject": "../Net7Library/Net7Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "MyOwnLibrary >= 1.0.0"
+      "MyOwnLibrary >= 1.0.0",
+      "Net7Library >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,6 +69,9 @@
           "projectReferences": {
             "/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/MyOwnLibrary.csproj": {
               "projectPath": "/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/MyOwnLibrary/MyOwnLibrary.csproj"
+            },
+            "/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/Net7Library.csproj": {
+              "projectPath": "/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/Net7Library/Net7Library.csproj"
             }
           }
         }

@@ -16,3 +16,5 @@
 /Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/PeopleApp/bin/Debug/net7.0/MyOwnLibrary.dll
 /Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/PeopleApp/bin/Debug/net7.0/MyOwnLibrary.pdb
 /Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/PeopleApp/obj/Debug/net7.0/PeopleApp.csproj.CopyComplete
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/PeopleApp/bin/Debug/net7.0/Net7Library.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/OOP/PeopleApp/bin/Debug/net7.0/Net7Library.pdb

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "PeopleApp/1.0.0": {
         "dependencies": {
-          "MyOwnLibrary": "1.0.0"
+          "MyOwnLibrary": "1.0.0",
+          "Net7Library": "1.0.0"
         },
         "runtime": {
           "PeopleApp.dll": {}
@@ -17,6 +18,11 @@
       "MyOwnLibrary/1.0.0": {
         "runtime": {
           "MyOwnLibrary.dll": {}
+        }
+      },
+      "Net7Library/1.0.0": {
+        "runtime": {
+          "Net7Library.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "MyOwnLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Net7Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
