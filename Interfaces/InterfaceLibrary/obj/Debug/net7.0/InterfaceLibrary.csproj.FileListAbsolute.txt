@@ -1,0 +1,12 @@
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/bin/Debug/net7.0/InterfaceLibrary.deps.json
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/bin/Debug/net7.0/InterfaceLibrary.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/bin/Debug/net7.0/InterfaceLibrary.pdb
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.csproj.AssemblyReference.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.AssemblyInfoInputs.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.AssemblyInfo.cs
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.csproj.CoreCompileInputs.cache
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/refint/InterfaceLibrary.dll
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/InterfaceLibrary.pdb
+/Users/angelbrambila/Documents/Code/LogicaDifusa/Interfaces/InterfaceLibrary/obj/Debug/net7.0/ref/InterfaceLibrary.dll
