@@ -49,3 +49,34 @@ nicole.WriteToConsole();
     nicole.Poke();
 
 #endregion
+
+#region Using IEnumerator
+Person [] people = 
+{
+    new() {Name = null},
+    new() { Name = "Hector" },
+    new() { Name = "Nancy" },
+    new() { Name = "Diana" },
+    new() { Name = "Andrea" },
+    new() { Name = "George" }
+};
+OutuputPeopleNames(people, "Initial List of people : ");
+// simply use Sort
+Array.Sort(people);
+OutuputPeopleNames(people, "After sorting using IComparable implementation : ");
+#endregion
+
+#region Using Own Interface
+// Call by reference
+DvdPlayer dvd = new();
+dvd.Play();
+dvd.Pause();
+#endregion
+
+#region Testing different types of declarations for heap and stack
+    int number1 = 30; // value type 32 Bytes
+    long number2 = 10; // 8 bytes 
+    System.Drawing.Point location = new(x:4, y:5); // value type
+    Person juno = new() { Name = "Goretti", DateOfBirth = new DateTime(year: 2001, month:9, day:23) }; // Reference type
+    Person dante = new() {Name = "Dante"}; // Refence type
+#endregion
