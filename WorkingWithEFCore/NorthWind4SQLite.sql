@@ -22,7 +22,7 @@ CREATE TABLE Categories
 (      
     CategoryID INTEGER PRIMARY KEY AUTOINCREMENT,
     CategoryName TEXT,
-    Description TEXT
+    Description NTEXT
 );
 
 CREATE TABLE Customers
